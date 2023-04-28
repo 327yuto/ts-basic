@@ -1,6 +1,6 @@
 export default class World {
   // クラスで使うプロパティ
-  message: string;
+  message: string
 
   //コンストラクタ（初期化）
   constructor(message: string) {
@@ -13,6 +13,4 @@ export default class World {
       elem.innerText = this.message
     }
   }
-
-
 }
